@@ -1,0 +1,41 @@
+<section class="ui raised segment">
+    <div class="ui grid">
+        <article class="eight wide column">
+
+
+            {{#each venue}}
+                    <h1 class="ui header">{{pois.0.name}}</h1>
+                    <h5 class="ui header">{{pois.0.location}}<br>
+                <a href="http://{{pois.0.website}}">{{pois.0.website}}</a></h5>
+
+
+
+
+           <h4 class="ui header">Description</h4>
+            <p>{{pois.0.description}}</p>
+                <h6 class="ui header">Latitude , Longitude<br>
+                    {{pois.0.geo.lat}} , {{pois.0.geo.long}}</h6>
+
+                        </article>
+
+
+
+        <aside class="eight wide column">
+            <a href="{{pois.0.imageMain}}"><img src="{{pois.0.imageMain}}" class="ui medium image"></a>
+            <div class="ui tiny images">
+                <a href="{{pois.0.image1}}"><img src="{{pois.0.image1}}" class="ui image"></a>
+                <a href="{{pois.0.image2}}"><img src="{{pois.0.image2}}" class="ui image"></a>
+                <a href="{{pois.0.image3}}"><img src="{{pois.0.image3}}" class="ui image"></a>
+
+            </div>
+        </aside>
+                        {{#if ../user.admin}}
+                            <a href="/venue/update/{{pois.0._id}}"><i class="edit outline icon"></i>Edit Venue</a>
+                            <a href="/venue/delete/{{pois.0._id}}" onclick="return confirm('Are you sure you want to delete this item?');"><i class="ui trash icon"></i> Delete</a>
+                        {{/if}}
+    {{/each}}
+
+
+    </div>
+    {{>error}}
+</section>

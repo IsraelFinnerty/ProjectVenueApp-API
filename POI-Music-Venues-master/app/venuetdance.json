@@ -1,0 +1,81 @@
+{
+  "_id" : ObjectId("5e5225ae1c9d4400007b1e09"),
+  "category" : "DANCING HOT SPOTS",
+  "pois" : [
+    {
+      "name" : "Tramline",
+      "_id" : ObjectId("5e5226722979740000f2d12a"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 54.7,
+        "long" : -6.141
+      },
+      "website" : "tramline.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833427/tramline_pxyhqk.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836997/tramlineBar.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837101/tramlineFront.png",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837221/tramlineSession.jpg",
+      "description" : "One of Dublin’s newest nightclubs, Tramline is a sleek and large multi-area, multi-purpose venue with an intimate bar and a big, inviting dance floor that just begs you to step in and move. Modern and with a trendy mix of neon and industrial touches, it gives the spotlight to an eclectic array of DJs, musicians and performers so there’s always something going on."
+    },
+    {
+      "name" : "IRO at Opium",
+      "_id" : ObjectId("5e5226832979740000f2d12b"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.336703,
+        "long" : -6.26634
+      },
+      "website" : "opium.ie/spaces/rooms",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833409/iro.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837836/IROseats_i70iwc.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837941/IROSession_b242sb.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837755/IRObar_s3f65d.jpg",
+      "description" : "This recently revamped venue is home to a gorgeous bar, a modern restaurant and IRO, a fabulous dance floor and night club area open late and sound tracked by some of Dublin’s best DJs and international talent. Inspired by Tokyo’s electrifying colours and a manga aesthetic, this state of the art venue features several LED screens, two bars, an outdoor smoking area and a very large dance floor you won’t want to leave."
+    },
+    {
+      "name" : "Lillie’s Bordello",
+      "_id" : ObjectId("5e52268f2979740000f2d12c"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.343064,
+        "long" : -6.259112
+      },
+      "website" : "lilliesbordello.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833407/lilliesBordello.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581838225/lilliesBar_uajnkr.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581838368/lilliesSession_kglcyp.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581838297/lilliesOutside_ddw0b4.jpg",
+      "description" : "This lavish late bar is not just a great spot to sip on a cocktail. With great music every night of the week and brilliant guest DJs to soundtrack their skilled mixologists’ craft, the tunes are so good you’ll actually want to get up from their ultra-comfortable velvet couches to dance in its luxurious surroundings. Want to take your evening to the next level? Lillie’s VIP area is THE place to party in style."
+    },
+    {
+      "name" : "The Front Door Pub",
+      "_id" : ObjectId("5e52269a2979740000f2d12d"),
+      "location" : "Galway",
+      "geo" : {
+        "lat" : 53.271747,
+        "long" : -9.054168
+      },
+      "website" : "frontdoorpub.com",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837480/frontdoorBar.jpg",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837686/frontDoorSession_etwt1d.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837587/frontdoorFront_uyqyxi.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833404/frontDoor.png",
+      "description" : "One of Galway’s favourite party venues features live bands and DJs seven nights a week. On top of that, they open late and have a spacious floor, so groups both large and small will find an area to dance until the wee hours while enjoying award winning cocktails."
+    },
+    {
+      "name" : "The Left Bank",
+      "_id" : ObjectId("5e5226b42979740000f2d12e"),
+      "location" : "Kilkenny",
+      "geo" : {
+        "lat" : 52.650583,
+        "long" : -7.251711
+      },
+      "website" : "leftbank.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833417/leftBank.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581838083/leftbankFront_pyavlq.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581838154/leftbankSession_dcs5wb.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581838012/leftbankBar_itapds.webp",
+      "description" : "This is one of the Marble City’s most popular venues and all day round there’s something going on. During the day, you’ll find a lively restaurant and pub, and by night, this impressive building becomes party station. Chill in the main bar or move to one of its several areas. If it’s dancing what you seek, then set camp at LB2, the chic late bar on the first floor which features live music and great DJs every weekend."
+    }
+  ]
+}

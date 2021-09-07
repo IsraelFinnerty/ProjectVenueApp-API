@@ -1,0 +1,61 @@
+{{> mainmenu _id="settings" }}
+
+<section class="ui raised segment">
+    <div class="ui grid">
+
+        <article class="sixteen wide column">
+            <h3 class="ui header">Admin Dashboard</h3>
+    <table class="ui celled table segment">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Last Login</th>
+            <th>Edit</th>
+            <th>Delete</th>
+            <th>Make Admin</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        {{#each listUsers}}
+
+
+            <tr>
+                <td>{{firstName}} {{lastName}}</td>
+                <td> {{email}} </td>
+                <td> {{lastLogin}}</td>
+                <td><a href="/admin/update/{{_id}}"><i class="edit outline icon"></i></a></td>
+                <td><a href="/admin/delete/{{_id}}" onclick="return confirm('Are you sure you want to delete this user?');"><i class="ui trash icon"></i></a></td>
+                <td><a href="/admin/update/{{_id}}/makeadmin">{{#if admin}}<i class="user times icon"> Remove</i>{{else}}<i class="user plus icon"></i> Add{{/if}}</a></td>
+            </tr>
+        {{/each}}
+
+
+        </tbody>
+    </table>
+            <h3 class="ui header">Analytics</h3>
+            <table class="ui celled table segment">
+                <thead>
+                <tr>
+                    <th>Categories</th>
+                    <th>Venues</th>
+                    <th>Users</th>
+                    <th>Admins</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{categories}}</td>
+                    <td>{{venueCount}}</td>
+                    <td>{{usersNum}}</td>
+                    <td>{{adminCount}}</td>
+                </tr>
+                </tbody>
+            </table>
+                {{> error}}
+
+
+        </article>
+    </div>
+</section>

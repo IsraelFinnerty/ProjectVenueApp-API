@@ -1,0 +1,81 @@
+{
+  "_id" : ObjectId("5e5104685c3db188badb0ae2"),
+  "category" : "TRADITIONAL IRISH MUSIC",
+  "pois" : [
+    {
+      "name" : "Pipers Corner",
+      "_id" : ObjectId("5e51056a5b66150000a8410f"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.349085,
+        "long" : -6.2579
+      },
+      "website" : "piperscorner.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833411/pipersCorner_zirpcv.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833533/PipersCorner.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833633/pipersBar.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833730/PipersGig.jpg",
+      "description" : "This recently opened venue offers a new space for authentic trad music in Dublin’s City Centre. Opened by well-known uilleann piper Seán Potts and renown Dublin publican Eamonn Briody, it’s a place where you’ll find nightly sessions with many of Ireland’s most talented Irish traditional musicians. Bonus points for having a notable selection of craft beers to enjoy while listening.\n"
+    },
+    {
+      "name" : "O’Donoghues",
+      "_id" : ObjectId("5e5105785b66150000a84110"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.33824,
+        "long" : -6.25424
+      },
+      "website" : "odonoghues.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833412/ODonoghues.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833840/odonoghuesBar.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833798/odonoghuesSession.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833878/odonoguesBeerGarden.jpg",
+      "description" : "This pub’s history traces back to 1789 and music has always played an important role. A favourite of Christy Moore and the Dubliners, it pleases both tourists and locals with a real Irish music experience on seven nights a week at the bar. Observe its rich history hanging on the walls while enjoying a pint of the black stuff and listening to accomplished traditional musicians live.\n"
+    },
+    {
+      "name" : "An Púcán",
+      "_id" : ObjectId("5e5105875b66150000a84111"),
+      "location" : "Galway",
+      "geo" : {
+        "lat" : 53.274573,
+        "long" : -9.047348
+      },
+      "website" : "anpucan.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833400/anPucan.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833986/pucanFront.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834027/pucanJammed.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833944/pucanBeerGarden.jpg",
+      "description" : "Galway’s finest musicians have the spotlight seven nights a week in this lively favourite of both tourists and locals. There’s a mix between modern and old-school tunes and you can find folk, proper trad and local bands on stage. With two daily sessions and special shows on the back stage on Fridays and Saturdays, it will get those feet tapping one way or another in no time!"
+    },
+    {
+      "name" : "Sin É",
+      "_id" : ObjectId("5e5105925b66150000a84112"),
+      "location" : "Cork",
+      "geo" : {
+        "lat" : 51.901772,
+        "long" : -8.47109
+      },
+      "website" : "corkheritagepubs.com/pubs/sin-e",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833415/sinE.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834095/sineFront.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834193/sineSession.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834137/sineInside.jpg",
+      "description" : "Open since 1889, this is no newcomer, instead, it’s one of the most well established bars for those looking to enjoy some traditional Irish music in the Rebel City. For the last five decades, they’ve offered non-stop trad sessions every evening of the week and they’ve a very special line up prepared for the coldest nights of the year so keep an eye for their winter sessions, nightly from 7:00 pm and let the sound warm your heart."
+    },
+    {
+      "name" : "Dolans Pub and Restaurant",
+      "_id" : ObjectId("5e51059c5b66150000a84113"),
+      "location" : "Limerick",
+      "geo" : {
+        "lat" : 52.658931,
+        "long" : -8.638217
+      },
+      "website" : "dolans.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833407/dolans.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834307/dolansInside.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834357/dolansFront.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834257/dolansSession.jpg",
+      "description" : "The winner for Best Entertainment Experience both in Ireland and in the world at the 2017 Irish Pubs Global Awards is a must-visit place for anyone with a soft spot for live Irish music in the Treaty City. Enjoy traditional tunes every night in Dolans Pub and Restaurant, one of five different music venues coexisting at Dolans (thanks to it’s different areas, you’ll also find a place for rock, pop and other music styles).\n"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "_id" : ObjectId("5e5104685c3db188badb0ae3"),
+  "category" : "ROCKIN’ NIGHT OUT",
+  "pois" : [
+    {
+      "name" : "Whelan’s",
+      "_id" : ObjectId("5e5105b05b66150000a84114"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.336618,
+        "long" : -6.265736
+      },
+      "website" : "whelanslive.com",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833427/whelans_qp6ey5.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835389/whelansSession.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835449/whelansFront.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835542/whelansBar.jpg",
+      "description" : "It’s hard to pinpoint Whelan’s in one particular genre, but one thing is certain, this place rocks until late. Acknowledged internationally as a world class music venue, since its opening in 1989 it has hosted an eclectic mix of up and coming musicians and established artists. From silent disco evenings to indie rock club and guest DJ’s, there’s plenty to choose from. For the rock heads, Saturday’s Indie Rock Club is the best time to go, with live gigs by the coolest bands well after midnight in the venue’s second floor."
+    },
+    {
+      "name" : "The Bowery",
+      "_id" : ObjectId("5e5105bb5b66150000a84115"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.324338,
+        "long" : -6.265221
+      },
+      "website" : "thebowery.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833419/theBowery_dxc1qn.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835915/bowerySession.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835665/boweryFront.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835602/boweryBar.jpg",
+      "description" : "Get ready to rock the boat at this music-oriented venue that promises “rock ‘n’ rum” and one of the most eclectics array of rock acts, from old school and acoustic, to hard rock and grunge. Whether you’re more Metallica or The Beatles, there’s a gig for you. Did we mention the bar is shaped like a pirate ship and it features a rum bar and a cool selection of rum cocktails? Yes please."
+    },
+    {
+      "name" : "Bruxelles (and The Flanders Bar)",
+      "_id" : ObjectId("5e5105c65b66150000a84116"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.3414,
+        "long" : -6.260872
+      },
+      "website" : "bruxelles.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833411/bruxelles.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836185/bruxellesSession.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836306/bruxellesBar.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836101/bruxellesFront.jpg",
+      "description" : "A statue of rock ‘n’ roll legend Phil Lynott a.k.a. Thin Lizzy, welcomes you to this bar, which features three different venues in one. The Saloon Bar takes the ground floor, with frequent guest DJs and a mix of pop, rock and more dance-able tunes playing (that is, when there’s no big sports game taking over guest’s attention). Go deeper and discover The Flanders Bar, an underground bar where Iron Maiden and the like take over the -very loud- speakers. Finally, there’s The Zodiac Bar, a chiller lounge with more alternative yet equally rocking vibes."
+    },
+    {
+      "name" : "Black Dog Salon & Mezcalaria",
+      "_id" : ObjectId("5e5105d15b66150000a84117"),
+      "location" : "Cork",
+      "geo" : {
+        "lat" : 54.7,
+        "long" : -6.141
+      },
+      "website" : "theblackdog.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833425/blackDog_pufr7q.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836415/BDSMbar.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836567/BDSMfront.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836488/BDSMdrinks.jpg",
+      "description" : "One with a bark and a bite, this alternative rock venue lends its stage to a mix of indie, alternative, punk, ska, metal and classic rock. Its decor channels NYC in the 70’s and along with world renown bands, you’ll find a wide selection of fine tequilas and whiskies from around the world as well as beers and cocktails. This music-obsessed venue is open seven nights a week and Thursdays to Sundays it features live acts supported by talented DJs until late."
+    },
+    {
+      "name" : "Sally Longs",
+      "_id" : ObjectId("5e5105da5b66150000a84118"),
+      "location" : "Galway",
+      "geo" : {
+        "lat" : 53.274091,
+        "long" : -9.053622
+      },
+      "website" : "sallylongs.business.site",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833418/sallyLongs_o3bxca.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836927/sallylongsInside.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581837331/sallylongsFront.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581836821/sallylongsMurial.jpg",
+      "description" : "This one is not for the faint of heart, and they like it that way. Galway’s only dedicated rock bar plays the meanest tracks since 1998. With tourist-stopping street art on its walls featuring the likes of Axl Rose, Mick Jagger, Bono and Steven Tyler it’s no wonder the place is a favourite of local and visiting rockers looking for a good pint and an even better jukebox."
+    }
+  ]
+}

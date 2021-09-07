@@ -1,0 +1,14 @@
+<nav class="ui inverted menu">
+    <header class="header item"><a href="/"> POI Home </a></header>
+    <div class="right menu">
+        <a id="venues" class= "item" href="/venues">Venues</a>
+        <a id="home"   class= "item" href="/addvenue"> Add Venue</a>
+        <a id="venues" class= "item" href="/category">Categories</a>
+        <a id="settings" class= "item" href="/settings"> Settings</a>
+        <a id="logout" class= "item" href="/logout"> Logout</a>
+    </div>
+</nav>
+
+<script>
+    $("#{{_id}}").addClass("active item");
+</script>

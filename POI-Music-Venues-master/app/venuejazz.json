@@ -1,0 +1,81 @@
+{
+  "_id" : ObjectId("5e5104685c3db188badb0ae1"),
+  "category" : "JAZZ, BLUES AND VINTAGE TUNES",
+  "pois" : [
+    {
+      "name" : "The Mint Bar at The Westin Hotel",
+      "_id" : ObjectId("5e5105f35b66150000a84119"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.345638,
+        "long" : -6.258902
+      },
+      "website" : "themintbar.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833428/theMint_cefpoq.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834557/MintBar.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834671/mintSession.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834432/mintInside.jpg",
+      "description" : "Fridays at Jazzdays at this glamorous bar in the heart of Dublin city centre as the venue hosts its popular Swingin’ Fridays. Experience the soothing sound of some of the country’s top jazz acts such as renown trumpet player Charles Cavanagh or The Velvet Lounge Band, featuring Ireland’s top jazz vocalist, Cormac Kenevey and one of Ireland’s most experienced pianists, Cian Boylan. Saturdays have a modern twist, with tunes by guest bands such as The Ratzingers, The Goods and The Rattle Shakes.\n"
+    },
+    {
+      "name" : "Café en Seine",
+      "_id" : ObjectId("5e5105fe5b66150000a8411a"),
+      "location" : "Dublin",
+      "geo" : {
+        "lat" : 53.340709,
+        "long" : -6.258641
+      },
+      "website" : "cafeenseine.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833403/cafeSeine.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834725/seineInside.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834795/seineBeerGarden.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834872/seineFront.jpg",
+      "description" : "This sophisticated francophile venue peaks at Parisian charms on Sunday afternoons as it welcomes the Stella Bass Jazz Trio for a weekly gig. Enjoy their relaxing tunes while brunching in style and embrace la joie de vivre with a cup of great coffee, glass of wine or superb cocktail."
+    },
+    {
+      "name" : "The Harbour Bar",
+      "_id" : ObjectId("5e5106085b66150000a8411b"),
+      "location" : "Bray",
+      "geo" : {
+        "lat" : 53.20733,
+        "long" : -6.102121
+      },
+      "website" : "theharbourbar.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833417/theHarbour.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835032/harbourSession.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834963/harbourFront.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581834996/harbourInside.jpg",
+      "description" : "Every year during the May Bank Holiday, Wicklow’s vibrant suburb of Bray becomes Ireland’s Jazz capital and for those wishing to enjoy the genre the rest of the year, The Harbour Bar is the place to go. While the venue lends its stage to different types of music, they often feature jazz acts as well as blues, folk, indie and alternative music."
+    },
+    {
+      "name" : "Crane Lane Theatre",
+      "_id" : ObjectId("5e5106125b66150000a8411c"),
+      "location" : "Cork",
+      "geo" : {
+        "lat" : 51.89776,
+        "long" : -8.469576
+      },
+      "website" : "cranelanetheatre.ie",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833407/craneLane.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835068/craneBeerGarden.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835101/craneFront.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835135/craneSession.jpg",
+      "description" : "Cork’s home of Blues & Burlesque offers a glamorous experience of vintage vibes and sparkling entertainment. Located within a former gentlemen’s club, it’s described as being “part country pub, part ballroom and part burlesque cabaret.” Enjoy a cocktail surrounded by the glamorous glitz of the 20’s and 30’s and check out their busy calendar of gigs which includes plenty of blues, swing and all that jazz!"
+    },
+    {
+      "name" : "Black Cat",
+      "_id" : ObjectId("5e51061f5b66150000a8411d"),
+      "location" : "Galway",
+      "geo" : {
+        "lat" : 53.260061,
+        "long" : -9.075629
+      },
+      "website" : "blackcat.ie/jazz",
+      "imageMain" : "https://res.cloudinary.com/izzofinno/image/upload/v1581833400/blackCat.png",
+      "image1" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835283/blackcatSession.jpg",
+      "image2" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835357/blackcatBar.jpg",
+      "image3" : "https://res.cloudinary.com/izzofinno/image/upload/v1581835234/blackcatFront.jpg",
+      "description" : "This proud sponsor of the Galway Jazz Festival is a place for lovers of wine and jazz. Inspired by the European Jazz scene, this intimate venue host frequent jazz evenings where wine and tapas accompany the melodies of guest artists. Enjoy live jazz sessions on Sunday evenings and treat yourself to a relaxed and leisurely experience of Mediterranean inspired flavours."
+    }
+  ]
+}
