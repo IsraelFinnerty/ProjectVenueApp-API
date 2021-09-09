@@ -38,6 +38,30 @@ const Venues = {
       }
   },
 
+  findVenues: {
+    auth: false,
+    handler: async function (request, h) {
+      try {
+        const allVenues = await Venue.find();
+        var venues = [];
+        for (var i = 0; i < allVenues.length; i++) {
+          for (var j = 0; j < allVenues.length; j++) {
+            venues.push(allVenues[i].pois[j]);
+          }
+        }
+
+        if(!venues){
+          return Boom.notFound('No venues found');
+        }
+        return venues;
+      } catch (err) {
+        return Boom.badImplementation('error fetching ');
+      }
+    }
+
+  },
+
+
   findCategories: {
     auth: false,
     handler: async function (request, h) {
@@ -57,28 +81,7 @@ const Venues = {
     }
     },
 
-  findVenues: {
-    auth: false,
-    handler: async function (request, h) {
-        try {
-        const allVenues = await Venue.find();
-        var venues = [];
-        for (var i = 0; i < allVenues.length; i++) {
-          for (var j = 0; j < allVenues.length; j++) {
-            venues.push(allVenues[i].pois[j]);
-          }
-        }
 
-     if(!venues){
-       return Boom.notFound('No venues found');
-     }
-           return venues;
-    } catch (err) {
-        return Boom.badImplementation('error fetching ');
-      }
-    }
-
-  },
 
 
   findVenuesLocation: {
