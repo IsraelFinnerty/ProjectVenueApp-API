@@ -60,6 +60,22 @@ const Users = {
     }
   },
 
+
+  lastLogin: {
+    auth: false,
+    handler: async function(request, h) {
+      try {
+        const user = await User.findOne({_id: request.params.id});
+        if (user) {
+          return {"lastLogin" : user.lastLogin};
+        }
+        return Boom.notFound(' user id not found');
+      } catch (err) {
+        return Boom.badImplementation('error fetching ');
+      }
+    }
+  },
+
   makeAdmin: {
     auth: false,
     handler: async function(request, h) {
@@ -93,22 +109,9 @@ const Users = {
         return Boom.badImplementation('error fetching ');
       }
     }
-  },
-
-  lastLogin: {
-    auth: false,
-    handler: async function(request, h) {
-      try {
-        const user = await User.findOne({_id: request.params.id});
-        if (user) {
-          return {"lastLogin" : user.lastLogin};
-        }
-        return Boom.notFound(' user id not found');
-      } catch (err) {
-        return Boom.badImplementation('error fetching ');
-      }
-    }
   }
+
+
 
 
 };
